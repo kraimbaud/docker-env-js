@@ -1,0 +1,7 @@
+app
+!app/.gitkeep
+
+.env.local
+
+docker/_config/ssh
+!docker/_config/ssh/.gitkeep
