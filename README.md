@@ -8,7 +8,7 @@ Your new Personal Docker Env for JS
 ### SSH Config
 Add the ssh config to your container and rebuild the project
 
-     cp ~/.ssh/* $(pwd)/docker/docker/_config/ssh
+     cp ~/.ssh/* $(pwd)/docker/_config/ssh
      docker-compose up --build -d
 
 To know how to generate a ssh key,
